@@ -4,6 +4,12 @@
 	"homepage": "https://github.com/xPaw/PHP-Source-Query",
 	"type": "library",
 	"license": "LGPL-2.1",
+	"funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/xPaw"
+        }
+	],
 	"keywords":
 	[
 		"rcon",
