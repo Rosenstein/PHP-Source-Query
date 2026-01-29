@@ -93,6 +93,11 @@ class Buffer
 	 */
 	public function ReadByte( ) : int
 	{
+		if( $this->Remaining( ) < 1 )
+		{
+			return 0;
+		}
+
 		return ord( $this->Read( 1 ) );
 	}
 
